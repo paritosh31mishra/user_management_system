@@ -1,0 +1,41 @@
+###
+POST http://localhost:3333/account
+Content-Type: application/json
+
+{
+     "uname": "name",
+    "umobile" : "mobile",
+    "uemail" : "email",
+    "upassword" : "password" ,
+    "ugender" :  "gender",
+    "ucity" : "city",
+    "ustate" : "keyword",
+    "usource" : "source"
+}
+
+//spacing matter
+
+###
+GET http://localhost:2222/product
+
+
+
+###
+GET http://localhost:2222/product/658f3256a87cc9c99a30eac8
+
+
+###
+PUT http://localhost:2222/product
+Content-Type: application/json
+
+{
+   "fullname": "Mohit",
+   "salary": 988998,
+   "department": "Director of Board",
+   "cityname": "Patna",
+   "id": "65870e43bcc85808802d3451"
+}
+
+
+###
+DELETE http://localhost:2222/product/65870e43bcc85808802d3451
