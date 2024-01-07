@@ -24,6 +24,10 @@ app.use("/account", accountapi);
 
 const manageuser = require("./userapi");
 app.use("/user", manageuser); 
+app.use("/retrieveuser", manageuser); 
+app.use("/edituser", manageuser); 
+app.use("/adduser", manageuser); 
+app.use("/deleteuser", manageuser); 
 
 app.listen(3333, () => console.log("The server is live now...."));
 
